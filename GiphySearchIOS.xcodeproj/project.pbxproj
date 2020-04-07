@@ -13,6 +13,10 @@
 		613C000824338E4A00308417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613C000624338E4A00308417 /* Main.storyboard */; };
 		613C000A24338E4E00308417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613C000924338E4E00308417 /* Assets.xcassets */; };
 		613C000D24338E4E00308417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613C000B24338E4E00308417 /* LaunchScreen.storyboard */; };
+		613C003C24338F6600308417 /* GifExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613C003B24338F6600308417 /* GifExtension.swift */; };
+		613C006524339A4000308417 /* GifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613C006424339A4000308417 /* GifCell.swift */; };
+		616149FB243D025300ACA729 /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616149FA243D025300ACA729 /* Gif.swift */; };
+		61EF535A2433C2D300B797A9 /* GifNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF53592433C2D300B797A9 /* GifNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +27,11 @@
 		613C000924338E4E00308417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		613C000C24338E4E00308417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		613C000E24338E4E00308417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613C003B24338F6600308417 /* GifExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifExtension.swift; sourceTree = "<group>"; };
+		613C006424339A4000308417 /* GifCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCell.swift; sourceTree = "<group>"; };
 		613CFFFD24338E4A00308417 /* GiphySearchIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiphySearchIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		616149FA243D025300ACA729 /* Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
+		61EF53592433C2D300B797A9 /* GifNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				613C000024338E4A00308417 /* AppDelegate.swift */,
 				613C000224338E4A00308417 /* SceneDelegate.swift */,
 				613C000424338E4A00308417 /* ViewController.swift */,
+				616149FA243D025300ACA729 /* Gif.swift */,
+				61EF53592433C2D300B797A9 /* GifNetwork.swift */,
 				613C000624338E4A00308417 /* Main.storyboard */,
-				613C000924338E4E00308417 /* Assets.xcassets */,
+				613C006424339A4000308417 /* GifCell.swift */,
 				613C000B24338E4E00308417 /* LaunchScreen.storyboard */,
+				613C000924338E4E00308417 /* Assets.xcassets */,
 				613C000E24338E4E00308417 /* Info.plist */,
+				613C003B24338F6600308417 /* GifExtension.swift */,
 			);
 			path = GiphySearchIOS;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				613C003C24338F6600308417 /* GifExtension.swift in Sources */,
 				613C000524338E4A00308417 /* ViewController.swift in Sources */,
+				613C006524339A4000308417 /* GifCell.swift in Sources */,
 				613C000124338E4A00308417 /* AppDelegate.swift in Sources */,
 				613C000324338E4A00308417 /* SceneDelegate.swift in Sources */,
+				616149FB243D025300ACA729 /* Gif.swift in Sources */,
+				61EF535A2433C2D300B797A9 /* GifNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
