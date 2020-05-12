@@ -57,9 +57,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
-// MARK: - Search bar functions
-extension ViewController: UISearchTextFieldDelegate {
-    
+    // MARK: - Search bar functions
+    extension ViewController: UISearchTextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         if textField.text != nil {

@@ -23,7 +23,7 @@ class GifNetwork {
             if let err = error {
                 print("Error fetching from Giphy: ", err.localizedDescription)
             }
-            print("Giphy Data: ", data as Any)
+//            print("Giphy Data: ", data as Any)
             do {
                 // Decode the data into array of Gifs
                 DispatchQueue.main.async {
